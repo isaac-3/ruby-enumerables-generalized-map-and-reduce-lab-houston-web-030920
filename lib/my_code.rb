@@ -10,5 +10,12 @@ def map(array)
   n_array
 end
 
-def reduce(array, starting)
+def reduce(array, starting_point = 0)
+  value = starting_point
+  counter += 0 
+  while counter < array.length do
+    value += yield(array[counter])
+    counter += 1
+  end
+  value
 end
