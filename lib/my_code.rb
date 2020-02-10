@@ -9,3 +9,5 @@ def map(array)
   end
   n_array
 end
+
+def 
