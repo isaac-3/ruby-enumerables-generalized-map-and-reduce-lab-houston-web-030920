@@ -10,4 +10,5 @@ def map(array)
   n_array
 end
 
-def 
+def reduce(array)
+end
