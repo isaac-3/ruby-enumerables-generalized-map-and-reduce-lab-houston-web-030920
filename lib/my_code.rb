@@ -1,5 +1,3 @@
-# Your Code Here
-
 def map(array)
  n_array = []
   counter = 0
@@ -24,11 +22,4 @@ def reduce(array, starting_point = nil)
     counter += 1
   end
   sum
-  # value = starting_point
-  # counter = 0 
-  # while counter < array.length do
-  #   value += yield(array[counter])
-  #   counter += 1
-  # end
-  # value
 end
